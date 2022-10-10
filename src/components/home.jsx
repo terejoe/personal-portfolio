@@ -12,12 +12,12 @@ export default function Home() {
       <div className='max-w-[1000px] mx-0 px-8 flex justify-center text-left flex-col h-full'>
         <p className='text-2xl text-[#a7a7a7]'><img src={handEmoji} alt = 'Hand Emoji' className='inline mr-2 mt-[-4px]'></img>Hi, My name is</p>
         <h1 className = 'text-4xl sm:text-7xl font-bold text-[#ffffff]' data-aos="fade-right" data-aos-duration="3000" >Nzeamalu Nkechinyere Tere-joe</h1>
-        <img src={frontEnd} alt='Front-end Logo' className = 'mt-4 ml-2 w-[160px] h-[38px]' data-aos="zoom-out-up" data-aos-duration="3000"/>
-        <p className='py-2 text-[#a7a7a7] ml-3'data-aos="zoom-out-up" data-aos-duration="3000">JavaScript / React / TailwindCSS</p>
+        <img src={frontEnd} alt='Front-end Logo' className = 'mt-4 ml-2 w-[160px] h-[38px]' data-aos="fade-right" data-aos-duration="3000" data-aos-delay="200"/>
+        <p className='py-2 text-[#a7a7a7] ml-3' data-aos="fade-right" data-aos-duration="3000" data-aos-delay="400">JavaScript / React / TailwindCSS</p>
 
-        <div className='ml-3'data-aos="zoom-out-up" data-aos-duration="3000">
-        <Link  to="projects" smooth={true} duration={500}><button className='text-white group border-2 px-6 py-3 flex items-center my-2 hover:bg-green-600 hover:border-green-600'>My Projects<span className='group-hover:rotate-90 duration-300'><HiArrowNarrowRight className='ml-3'/></span></button></Link>
-         </div>
+        <div className='ml-3'data-aos="fade-right" data-aos-duration="3000" data-aos-delay="600">
+          <Link  to="projects" smooth={true} duration={500}><button className='text-white group border-2 px-6 py-3 flex items-center my-2 hover:bg-green-600 hover:border-green-600'>My Projects<span className='group-hover:rotate-90 duration-300'><HiArrowNarrowRight className='ml-3'/></span></button></Link>
+        </div>
       </div>
     </div>
     

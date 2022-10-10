@@ -28,7 +28,7 @@ export default function Navbar() {
         </div>
 
         {/* Hamburger Menu Items */}
-        <ul className = {!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#010021] flex flex-col justify-center items-center z-10'}>
+        <ul className = {!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#010021] flex flex-col justify-center items-center'}>
           <li className='py-6 text-4xl'><Link onClick = {handleClick} to="home" smooth={true} duration={500}>Home</Link></li>
           <li className='py-6 text-4xl'><Link onClick = {handleClick} to="about" smooth={true} duration={500}>About</Link></li>
           <li className='py-6 text-4xl'><Link onClick = {handleClick} to="projects" smooth={true} duration={500}>Projects</Link></li>
