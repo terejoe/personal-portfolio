@@ -1,3 +1,3 @@
 ### Portfolio
 
-https://nkechinyere-portfolio.netlify-app/
+https://nkechinyere-portfolio.netlify.app/
