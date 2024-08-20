@@ -5,7 +5,7 @@ import { FaGithub,FaLinkedin } from 'react-icons/fa'
 
 export default function Contact() {
   return (
-    <div name='contact' className='w-full bg-[#010021] flex justify-center items-start p-4'>
+    <div name='contact' className='w-full bg-[#010021] flex justify-center items-start p-4 pt-52'>
       <form action ='https://getform.io/f/574ccbf7-81da-4a18-b963-fe2110b42552'method='POST'className='flex flex-col max-w-[600px] w-full'>
         <div className='pb-4 mb-2'>
           <p className='text-4xl font-bold inline border-b-4 border-green-600 text-gray-300'>Contact</p>
