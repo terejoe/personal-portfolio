@@ -24,21 +24,22 @@ export default function About() {
             <p className='mt-4 text-[#a7a7a7] text-left'>I am an enthusiastic front-end developer with excellent skills in my field. I take delight in developing clear and reusable code using frontend frameworks to create and maintain the client-side of a website that is user-friendly.</p>
 
             <div className='mt-4 text-center justify-center flex md:justify-start'>
+              <p className='text-3xl'>Tools:</p>
               <ul className='flex mb-4'>    
                 <li className='mx-2 px-0 bg-orange-600 w-[40px] h-[40px] items-center justify-center flex rounded-md'>
-                  <a href='/'><FaHtml5 size={30}/></a>
+                  <FaHtml5 size={30}/>
                 </li> 
                 <li className='mx-2 px-0 bg-blue-600 w-[40px] h-[40px] items-center justify-center flex rounded-md'>
-                  <a href='/'><FaCss3Alt size={30}/></a>
+                  <FaCss3Alt size={30}/>
                 </li> 
                 <li className='mx-2 px-0 bg-[#f0db4f] w-[40px] h-[40px] items-center justify-center flex rounded-md'>
-                  <a href='/'><IoLogoJavascript className='fill-[#323330]' size={30}/></a>
+                  <IoLogoJavascript className='fill-[#323330]' size={30}/>
                 </li> 
                 <li className='mx-2 px-0 bg-blue-600 w-[40px] h-[40px] items-center justify-center flex rounded-md'>
-                  <a href='/'><FaReact size={30}/></a>
+                  <FaReact size={30}/>
                 </li> 
                 <li className='mx-2 px-0 bg-[#333333] w-[40px] h-[40px] items-center justify-center flex rounded-md'>
-                  <a href='/'><FaGithub size={30}/></a>
+                  <FaGithub size={30}/>
                 </li>     
               </ul>
             </div>
