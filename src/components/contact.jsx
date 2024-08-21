@@ -19,17 +19,21 @@ export default function Contact() {
     })
   };
   
-  const handleSubmit = (e) => {
+  const handleSubmit = (e, formData) => {
     e.preventDefault();
     axios
-      .post('https://getform.io/f/574ccbf7-81da-4a18-b963-fe2110b42552', {
+      .post('https://getform.io/f/574ccbf7-81da-4a18-b963-fe2110b42552',formData, {
+        // headers: {
+        //   "Content-Type": "application/json",
+        // },
+        // body: JSON.stringify(formData)
       })
       .then((res) => {
         console.log(res);
         setFormData({ name: "", email: "", message:""});
       })
       .catch((err) => {
-        console.log(err.res);
+        console.log(err);
       });
   }
   return (

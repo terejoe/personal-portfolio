@@ -5,12 +5,12 @@ import budget from '../assets/budget.png'
 export default function Project() {
   return (
     <div name ='projects' className='w-full pt-20 md:pt-40 bg-[#010021] text-gray-300'>
-      <div className='max-w-[1000px] md:pl-40 p-4 flex flex-col justify-center w-full h-full'>
+      <div className='md:pl-40 p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-6'>
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-green-600'>Projects</p>
         </div>
 
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 md:gap-72 gap-10 mx-auto'>
+        <div className='grid sm:grid-cols-2 md:grid-cols-3 md:gap-20 gap-10 mx-auto'>
           {/* One Item */}
           <div className='border-lg shadow-lg shadow-black container rounded-md justify-center items-center md:w-[350px] overflow-hidden'>
             <a href=' https://tickety-group10.netlify.app/'><img src={tickety} alt='Website' className='w-full'/></a>
@@ -30,7 +30,7 @@ export default function Project() {
               <p className='font-bold text-gray-500 text-xl mb-2'>Max's Portfolio</p>
               <p className='text-white text-sm mb-2'>Built a client's personal porfolio while displaying blogposts from hashnode on the website using graphql.</p>
               <div className='flex justify-between'>
-                <div><strong><a href='https://github.com/terejoe/max-portfodivo' className='hover:text-green-300'>View Code</a></strong></div>
+                <div><strong><a href='https://github.com/terejoe/max-portfolio' className='hover:text-green-300'>View Code</a></strong></div>
                 <div><strong><a href='https://kellslte-portfolio.netlify.app/' className='hover:text-green-300'>View Website</a></strong></div>
               </div>
             </div>
