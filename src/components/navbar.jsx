@@ -14,7 +14,7 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Menu */}
-        <ul className='hidden md:flex'>
+        <ul className='hidden md:flex mr-20'>
           <li className='  hover:text-[#a7a7a7]'><Link  to="home" smooth={true} duration={500}>Home</Link></li>
           <li className='  hover:text-[#a7a7a7]'><Link  to="about" smooth={true} duration={500}>About</Link></li>
           <li className='  hover:text-[#a7a7a7]'><Link  to="projects" smooth={true} duration={500}>Projects</Link></li>
