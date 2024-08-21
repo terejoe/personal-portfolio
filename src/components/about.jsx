@@ -21,7 +21,7 @@ export default function About() {
 
           <div className='mt-8 m-auto'>
             <p className='text-left text-4xl font-bold'>Hi, I'm Nkechinyere, It's so nice to meet you. Please take a look around.</p>
-            <p className='mt-4 text-[#a7a7a7] text-left'>I am an enthusiastic front-end developer with excellent skills in my field. I take delight in developinng clear and reusable code using frontend frameworks to create and maintain the client-side of a website that is user-friendly.</p>
+            <p className='mt-4 text-[#a7a7a7] text-left'>I am an enthusiastic front-end developer with excellent skills in my field. I take delight in developing clear and reusable code using frontend frameworks to create and maintain the client-side of a website that is user-friendly.</p>
 
             <div className='mt-4 text-center justify-center flex md:justify-start'>
               <ul className='flex mb-4'>    

@@ -8,7 +8,7 @@ export default function Home() {
     <div name = 'home' className='w-full bg-[#010021]'>
 
       {/* Container */}
-      <div className='max-w-[1000px] mx-0 px-8 flex justify-center text-left flex-col h-full'>
+      <div className='max-w-[800px] mx-10 md:px-8 flex justify-center text-left flex-col h-full md:pt-40 pt-24 pb-6'>
         <p className='text-2xl text-[#a7a7a7]'><img src={handEmoji} alt = 'Hand Emoji' className='inline mr-2 mt-[-4px]'></img>Hi, My name is</p>
         <h1 className = 'text-4xl sm:text-7xl font-bold text-[#ffffff] ml-1' data-aos="fade-right" data-aos-duration="3000" >Nzeamalu Nkechinyere Tere-joe</h1>
         <img src={frontEnd} alt='Front-end Logo' className = 'mt-4 ml-2 w-[160px] h-[38px]' data-aos="fade-right" data-aos-duration="3000" data-aos-delay="200"/>
