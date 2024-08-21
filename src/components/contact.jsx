@@ -23,10 +23,6 @@ export default function Contact() {
     e.preventDefault();
     axios
       .post('https://getform.io/f/574ccbf7-81da-4a18-b963-fe2110b42552', {
-        headers: {
-          "Content-Type": "application/json",
-        },
-        // body: JSON.stringify(formData)
       })
       .then((res) => {
         console.log(res);

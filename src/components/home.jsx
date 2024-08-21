@@ -1,6 +1,6 @@
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import handEmoji from '../assets/handemoji.png'
-import frontEnd from '../assets/frontend.png'
+// import frontEnd from '../assets/frontend.png'
 import { Link } from 'react-scroll';
 
 export default function Home() {
@@ -11,7 +11,8 @@ export default function Home() {
       <div className='max-w-[800px] mx-2 md:mx-10 md:px-8 flex justify-center text-left flex-col h-full md:pt-40 pt-24 pb-6'>
         <p className='text-2xl text-[#a7a7a7]'><img src={handEmoji} alt = 'Hand Emoji' className='inline mr-2 mt-[-4px]'></img>Hi, My name is</p>
         <h1 className = 'text-4xl sm:text-7xl font-bold text-[#ffffff] ml-1' data-aos="fade-right" data-aos-duration="3000" >Nzeamalu Nkechinyere Tere-joe</h1>
-        <img src={frontEnd} alt='Front-end Logo' className = 'mt-4 ml-2 w-[160px] h-[38px]' data-aos="fade-right" data-aos-duration="3000" data-aos-delay="200"/>
+        {/* <img src={frontEnd} alt='Front-end Logo' className = 'mt-4 ml-2 w-[160px] h-[38px]' data-aos="fade-right" data-aos-duration="3000" data-aos-delay="200"/> */}
+        <p className='text-[#a7a7a7] ml-2 mt-2' data-aos="fade-right" data-aos-duration="3000" data-aos-delay="200">I am the ideal candidate for a frontend internship, driven by a deep passion for web development and an unrelenting desire to learn and grow in an enabling environment.</p>
         <p className='py-2 text-[#a7a7a7] ml-3' data-aos="fade-right" data-aos-duration="3000" data-aos-delay="400">JavaScript / React / TailwindCSS</p>
 
         <div className='ml-3'data-aos="fade-right" data-aos-duration="3000" data-aos-delay="600">
