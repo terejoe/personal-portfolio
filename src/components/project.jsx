@@ -14,7 +14,7 @@ export default function Project() {
           {/* One Item */}
           <div className='border-lg shadow-lg shadow-black container rounded-md justify-center items-center md:w-[350px] overflow-hidden'>
             <a href=' https://tickety-group10.netlify.app/'><img src={tickety} alt='Website' className='w-full'/></a>
-            <div className='px-6 py-4'>
+            <div className='px-6 py-2'>
               <p className='font-bold text-gray-500 text-xl mb-2'>Event Mangement System</p>
               <p className='text-white text-sm mb-2'>An event management system that you can create and view events.</p>
               <div className='flex justify-between'>
@@ -38,7 +38,7 @@ export default function Project() {
 
           <div className='border-lg shadow-lg shadow-black container rounded-md justify-center items-center md:w-[350px] overflow-hidden'>
             <a href='https://budget-and-expenses-applicatin.netlify.app/'><img src={budget} alt='Website' className='w-full'/></a>
-            <div className='px-6 py-4'>
+            <div className='px-6 py-2'>
               <p className='font-bold text-gray-500 text-xl mb-2'>Budget App</p>
               <p className='text-white text-sm mb-2'>A budget app that calulates the expenses of the user.</p>
               <div className='flex justify-between'>
