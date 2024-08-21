@@ -5,7 +5,7 @@ import budget from '../assets/budget.png'
 export default function Project() {
   return (
     <div name ='projects' className='w-full pt-40 bg-[#010021] text-gray-300'>
-      <div className='max-w-[1000px] p-4 flex flex-col justify-center w-full h-full'>
+      <div className='max-w-[1000px] md:pl-40 p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-6'>
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-green-600'>Projects</p>
         </div>
@@ -13,7 +13,7 @@ export default function Project() {
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 mx-auto'>
           {/* One Item */}
           <div className='border-lg shadow-lg shadow-black container rounded-md justify-center items-center max-w-sm overflow-hidden'>
-            <a href=' https://eduford-schoolwebsite.netlify.app'><img src={tickety} alt='Website' className='w-full'/></a>
+            <a href=' https://tickety-group10.netlify.app/'><img src={tickety} alt='Website' className='w-full'/></a>
             <div className='px-6 py-4'>
               <p className='font-bold text-gray-500 text-xl mb-2'>Event Mangement System</p>
               <ul>

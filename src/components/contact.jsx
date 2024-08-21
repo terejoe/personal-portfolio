@@ -11,31 +11,31 @@ export default function Contact() {
     message:  ""
   });
 
-  const handleChange = (e) => {
-    const {name, value} = e.target;
-    setFormData({
-      ...formData,
-      [name]: value
-    })
-  };
+  // const handleChange = (e) => {
+  //   const {name, value} = e.target;
+  //   setFormData({
+  //     ...formData,
+  //     [name]: value
+  //   })
+  // };
   
-  const handleSubmit = (e,formData) => {
-    e.preventDefault();
-    axios
-      .post('https://getform.io/f/574ccbf7-81da-4a18-b963-fe2110b42552', formData, {
-        headers: {
-          "Content-Type": "application/json",
-        },
-        // body: JSON.stringify(formData)
-      })
-      .then((res) => {
-        console.log(res);
-        setFormData({ name: "", email: "", message:""});
-      })
-      .catch((err) => {
-        console.log(err.res);
-      });
-  }
+  // const handleSubmit = (e,formData) => {
+  //   e.preventDefault();
+  //   axios
+  //     .post('https://getform.io/f/574ccbf7-81da-4a18-b963-fe2110b42552', formData, {
+  //       headers: {
+  //         "Content-Type": "application/json",
+  //       },
+  //       // body: JSON.stringify(formData)
+  //     })
+  //     .then((res) => {
+  //       console.log(res);
+  //       setFormData({ name: "", email: "", message:""});
+  //     })
+  //     .catch((err) => {
+  //       console.log(err.res);
+  //     });
+  // }
   return (
     <div name='contact' className='w-full bg-[#010021] justify-center items-start p-4 pt-20'>
       <div className='pb-4 mb-2'>
