@@ -1,4 +1,3 @@
-import React from 'react'
 import tickety from '../assets/tickety.png'
 import instagram from '../assets/instagram.png'
 import budget from '../assets/budget.png'

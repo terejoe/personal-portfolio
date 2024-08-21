@@ -1,4 +1,3 @@
-import React from 'react'
 import { FaGithub, FaHtml5, FaCss3Alt,FaReact } from 'react-icons/fa'
 import { IoLogoJavascript } from 'react-icons/io'
 import potrait from '../assets/potrait.jpg'

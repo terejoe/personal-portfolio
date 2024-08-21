@@ -1,4 +1,3 @@
-import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import handEmoji from '../assets/handemoji.png'
 import frontEnd from '../assets/frontend.png'
@@ -6,7 +5,7 @@ import { Link } from 'react-scroll';
 
 export default function Home() {
   return (
-    <div name = 'home' className='w-full h-screen bg-[#010021]'>
+    <div name = 'home' className='w-full bg-[#010021]'>
 
       {/* Container */}
       <div className='max-w-[1000px] mx-0 px-8 flex justify-center text-left flex-col h-full'>
