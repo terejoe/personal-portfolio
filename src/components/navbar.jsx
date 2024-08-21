@@ -9,7 +9,7 @@ export default function Navbar() {
 
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center py-4 bg-[#010021] text-white'>
-        <div className='px-2 ml-8'>
+        <div className='px-2 ml-6'>
           <img src={codeIcon} alt ='Logo Icon'></img>
         </div>
 
@@ -23,7 +23,7 @@ export default function Navbar() {
         
         
         {/* Hamburger Menu */}
-        <div onClick = {handleClick} className='md:hidden z-10 px-2 cursor-pointer'>
+        <div onClick = {handleClick} className='md:hidden z-10 px-2 cursor-pointer mr-4'>
           {!nav ? <FaBars size={35}/> : <FaTimes size={35}/>}
         </div>
 
